@@ -5,13 +5,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meu primeiro Portifolio</title>
+
+  <style>
+
+    body {background-color:bisque;
+      color:black;}
+
+    p {font-family:sans-serif;
+       color: blue;}
+
+    .links {color:red; 
+      background-color: aquamarine;}
+
+    h1 {size-adjust: 2m;}
+
+    #texto-foto {
+      size: 2px;
+    }
+    
+  </style>
+
 </head>
 
 <body>
   
   <h1>Meu primeiro Portifolio</h1>
   <h3>Índice</h3>
-    <ul>
+    <ul class="links">
       <a href="#hobby"><li>Hobby</li></a>
       <a href="#habilidades"><li>Habilidades</li></a>
       <a href="#foto_pessoal"><li>Foto</li></a>
@@ -26,7 +46,7 @@
 
   <img id="foto_pessoal" src="imagens/Perfil.jpg" width="300" alt="Foto de Isaac Macêdo">
 
-    <p><em>Foto tirada no porto da barra dia 09/09/2022</em></p>
+    <p id="texto-foto"><em>Foto tirada no porto da barra dia 09/09/2022</em></p>
 
 <hr>
   <p id="hobby">Criei uma paixão por <a target="_blank" href="https://www.tudoreceitas.com/receita-de-massa-de-pizza-rapida-com-fermento-biologico-seco-10059.html">Cozinhar</a>
@@ -34,7 +54,7 @@
   </p>
 <hr>    
 <h3 id="habilidades">Habilidades</h3>
-<ul>
+<ul class="links">
   <li>Comunicativo</li>
   <li>Prestativo</li>
   <li>Diligente</li>
