@@ -4,6 +4,7 @@
       color:black; 
       font-size: 15px; 
       font-family: poppins;
+      margin: 0;
     }
 
     p {
@@ -12,10 +13,28 @@
       text-align: justify;
     }
 
+    .header {
+      background-image: url(imagens/Perfil.jpg);
+      background-size: cover;
+      background-position: 50% 32%;
+      padding: 60px 30px 80px;
+      margin: auto;
+    }
+
+    .texto-foto-principal {
+      text-align: left;
+      width: 35%;
+      background-color: rgb(219, 250, 241);
+      margin-bottom: 4em;
+      background-position: 30%;
+    }
+
     .links {
       color:red; 
-      background-color: aquamarine; 
+      background-color: rgb(219, 250, 241); 
       font-size: 18px;
+      width: 110px;
+      
     } 
 
     h1 {
@@ -40,6 +59,14 @@
     }
 
     #texto-foto {
-      size: 2px;
+      size: 2px; 
+      text-align: right;
+      color: brown;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    #habilidades {
+      text-align: left;
+      
     }
     
