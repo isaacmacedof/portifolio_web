@@ -1,0 +1,45 @@
+
+    body {
+      background-color:bisque;
+      color:black; 
+      font-size: 15px; 
+      font-family: poppins;
+    }
+
+    p {
+      font-family:Arial, Helvetica, sans-serif;
+      color: black; 
+      text-align: justify;
+    }
+
+    .links {
+      color:red; 
+      background-color: aquamarine; 
+      font-size: 18px;
+    } 
+
+    h1 {
+      font-size: 2em; 
+      text-align: center; 
+      color: crimson;
+    }
+
+    h2, h3 {
+        text-align: center;
+        color: crimson;
+        text-decoration: underline;
+      }
+    
+    strong {
+        color: blue;
+      }
+
+    #foto_pessoal {
+      border-radius: 50px; 
+      margin: 0 auto;
+    }
+
+    #texto-foto {
+      size: 2px;
+    }
+    
