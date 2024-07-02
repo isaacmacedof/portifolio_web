@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 .header {
   align-items: center;
   color: #331d2c;
@@ -5,7 +8,9 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0;
-  padding: 0.5rem 3rem;
+  font-family: Poppins, sans-serif;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
 }
 
 section {
@@ -31,8 +36,8 @@ section {
 }
 
 .img-link {
-  max-height: 1.875rem;
-  max-width: 1.875rem;
+  max-height: 1.975rem;
+  max-width: 1.975rem;
 }
 
 .header-link {
@@ -49,13 +54,4 @@ section {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
-}
-
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  unicode-bidi: isolate;
 }
