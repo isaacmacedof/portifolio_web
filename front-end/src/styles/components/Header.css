@@ -1,0 +1,61 @@
+.header {
+  align-items: center;
+  color: #331d2c;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0.5rem 3rem;
+}
+
+section {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.left-header {
+  align-items: center;
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.nav-header {
+  display: flex;
+  font-size: 1rem;
+  gap: 2rem;
+}
+
+.right-header {
+  display: flex;
+  gap: 1rem;
+}
+
+.img-link {
+  max-height: 1.875rem;
+  max-width: 1.875rem;
+}
+
+.header-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-link:visited {
+  color: inherit;
+}
+
+.my-name {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
