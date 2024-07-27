@@ -10,9 +10,9 @@ const Header = () => {
       </section>
       <section className='mid-header'>
         <nav className='nav-header'>
-            <a className='header-link' href="/about">Sobre</a>
-            <a className='header-link' href="/">Projetos</a>
-            <a className='header-link' href="/contact">Contato</a>
+            <a className='header-link' href="/about">About</a>
+            <a className='header-link' href="/">Projects</a>
+            <a className='header-link' href="/contact">Contact</a>
         </nav>
       </section>
       <section className='right-header'>
@@ -24,7 +24,7 @@ const Header = () => {
         </a>
       </section>
     </header>
-  );
+  )
 }
 
 export default Header;
